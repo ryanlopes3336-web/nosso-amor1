@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ryan ❤️ Ana Paula</title>
+
+    <meta name="description" content="Nossa história de amor">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Fundo -->
+    <div id="stars"></div>
+    <div id="hearts"></div>
+
+    <!-- Tela Inicial -->
+    <section id="intro">
+
+        <div class="intro-content">
+
+            <h2>Nossa História</h2>
+
+            <h1>
+                Ryan
+                <span>❤️</span>
+                Ana Paula
+            </h1>
+
+            <p>
+                Cada segundo ao seu lado faz meu coração ter mais certeza
+                de que encontrei o amor da minha vida.
+            </p>
+
+            <button id="startButton">
+                Clique para começar
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Conteúdo Principal -->
+    <main id="mainContent">
+
+        <!-- Hero -->
+        <section class="hero">
+
+            <h2>Ryan ❤️ Ana Paula</h2>
+
+            <h3>
+                Desde 12/04/2026 escrevendo nossa história...
+            </h3>
+
+        </section>
+
+        <!-- Contador -->
+        <section class="contador">
+
+            <h2>Estamos juntos há</h2>
+
+            <div class="timer">
+
+                <div class="time-box">
+                    <span id="years">0</span>
+                    <small>Anos</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="months">0</span>
+                    <small>Meses</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="days">0</span>
+                    <small>Dias</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="hours">0</span>
+                    <small>Horas</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="minutes">0</span>
+                    <small>Minutos</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="seconds">0</span>
+                    <small>Segundos</small>
+                </div>
+
+            </div>
+
+        </section><!-- Galeria -->
+        <section class="gallery">
+
+            <h2>Nossos Momentos ❤️</h2>
+
+            <div class="carousel">
+
+                <img src="imagens/foto1.jpg" class="slide active" alt="Foto 1">
+
+                <img src="imagens/foto2.jpg" class="slide" alt="Foto 2">
+
+                <img src="imagens/foto3.jpg" class="slide" alt="Foto 3">
+
+                <img src="imagens/foto4.jpg" class="slide" alt="Foto 4">
+
+            </div>
+
+        </section>
+
+        <!-- Carta -->
+        <section class="love-letter">
+
+            <h2>Uma carta para você ❤️</h2>
+
+            <p id="typingText"></p>
+
+        </section>
+
+        <!-- Spotify -->
+        <section class="spotify-section">
+
+            <div class="spotify-card">
+
+                <div class="music-icon">
+                    🎵
+                </div>
+
+                <div class="music-info">
+
+                    <h3>Amor Sem Medida</h3>
+
+                    <p>Matheus & Kauan</p>
+
+                </div>
+
+                <a
+                    href="https://open.spotify.com/search/Amor%20Sem%20Medida%20Matheus%20e%20Kauan"
+                    target="_blank"
+                    class="spotify-button">
+
+                    Ouvir
+
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Linha do Tempo -->
+        <section class="timeline">
+
+            <h2>Nossa História</h2>
+
+            <div class="timeline-item">
+
+                <span>❤️ 12/04/2026</span>
+
+                <p>O dia em que nossas vidas se encontraram.</p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <span>🌹 Primeiro encontro</span>
+
+                <p>Um momento que ficará para sempre em nossos corações.</p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <span>💋 Primeiro beijo</span>
+
+                <p>Ali nasceu uma história inesquecível.</p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <span>💍 Pedido de namoro</span>
+
+                <p>O início oficial da nossa linda jornada.</p>
+
+            </div>
+
+        </section>
+        <!-- Final -->
+        <section class="ending">
+
+            <h2>❤️ Para Sempre ❤️</h2>
+
+            <p>
+                Que esse contador nunca pare de aumentar.
+            </p>
+
+            <h3>
+                Eu te amo infinitamente,
+                <br>
+                Ana Paula.
+            </h3>
+
+            <span class="signature">
+                — Ryan ❤️
+            </span>
+
+        </section>
+
+    </main>
+
+    <!-- Modal da Galeria -->
+    <div id="imageModal" class="modal">
+
+        <span class="closeModal">&times;</span>
+
+        <img id="modalImage" src="" alt="Foto ampliada">
+
+    </div>
+
+    <!-- Chuva de corações -->
+    <div id="heartRain"></div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
